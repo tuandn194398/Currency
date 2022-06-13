@@ -244,11 +244,11 @@
 
     <ListView
         android:id="@+id/lvLen"
-        android:visibility="invisible"
         android:layout_width="250dp"
         android:layout_height="400dp"
         android:layout_marginTop="50dp"
-        android:background="@drawable/listview_layout"
+        android:background="#FFEA00"
+        android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

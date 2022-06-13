@@ -65,7 +65,7 @@ public class CurrencyFragment extends Fragment {
         df.setMaximumFractionDigits(10); // 340 = DecimalFormat.DOUBLE_FRACTION_DIGITS
 
 
-        new ReadJSONObject().execute("https://v6.exchangerate-api.com/v6/ac1837e3efee58a93aaee53b/pair/USD/VND");
+        new ReadJSONObject().execute("https://v6.exchangerate-api.com/v6/95589e58e0cef5898e4accd1/pair/USD/VND");
         listView = binding.lvLen;
         tv1 = binding.tvKQ1; tvChon1 = binding.tvChon1;
         tv2 = binding.tvKQ2; tvChon2 = binding.tvChon2;
@@ -93,10 +93,10 @@ public class CurrencyFragment extends Fragment {
                     flagDuoi = position;
                 }
                 if (flagChon) {
-                    new ReadJSONObject().execute("https://v6.exchangerate-api.com/v6/ac1837e3efee58a93aaee53b/pair/" + code[flagTren] + "/" + code[flagDuoi]);
+                    new ReadJSONObject().execute("https://v6.exchangerate-api.com/v6/95589e58e0cef5898e4accd1/pair/" + code[flagTren] + "/" + code[flagDuoi]);
                 }
                 else {
-                    new ReadJSONObject().execute("https://v6.exchangerate-api.com/v6/ac1837e3efee58a93aaee53b/pair/" + code[flagDuoi] + "/" + code[flagTren]);
+                    new ReadJSONObject().execute("https://v6.exchangerate-api.com/v6/95589e58e0cef5898e4accd1/pair/" + code[flagDuoi] + "/" + code[flagTren]);
                 }
                 text = "";
             }
@@ -116,7 +116,7 @@ public class CurrencyFragment extends Fragment {
                 tv1.setBackground(this.getResources().getDrawable(R.drawable.textview_layout));
                 flagChon = true;
                 text = "";
-                new ReadJSONObject().execute("https://v6.exchangerate-api.com/v6/ac1837e3efee58a93aaee53b/pair/" + code[flagTren] + "/" + code[flagDuoi]);
+                new ReadJSONObject().execute("https://v6.exchangerate-api.com/v6/95589e58e0cef5898e4accd1/pair/" + code[flagTren] + "/" + code[flagDuoi]);
             }
         });
         tv2.setOnClickListener(v -> {
@@ -125,11 +125,11 @@ public class CurrencyFragment extends Fragment {
                 tv2.setBackground(this.getResources().getDrawable(R.drawable.textview_layout));
                 flagChon = false;
                 text = "";
-                new ReadJSONObject().execute("https://v6.exchangerate-api.com/v6/ac1837e3efee58a93aaee53b/pair/" + code[flagDuoi] + "/" + code[flagTren]);
+                new ReadJSONObject().execute("https://v6.exchangerate-api.com/v6/95589e58e0cef5898e4accd1/pair/" + code[flagDuoi] + "/" + code[flagTren]);
             }
         });
         binding.btnLenCham.setOnClickListener(v -> {
-            new ReadJSONObject().execute("https://v6.exchangerate-api.com/v6/ac1837e3efee58a93aaee53b/pair/USD/VND");
+            new ReadJSONObject().execute("https://v6.exchangerate-api.com/v6/95589e58e0cef5898e4accd1/pair/USD/VND");
 
         });
 
