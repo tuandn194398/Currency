@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvKQ1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:background="@drawable/textview_layout"
+            android:gravity="center|start|center_vertical"
+            android:paddingLeft="20dp"
+            android:text="0"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvChon1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="2"
+            android:gravity="center|start"
+            android:text="United States - Dollar ▼"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvKQ2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:gravity="bottom|center|start"
+            android:paddingLeft="20dp"
+            android:text="0"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvChon2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="2"
+            android:gravity="center|start"
+            android:text="Vietnam - Dong ▼"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTiGia"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:textColor="#426EB4"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/btnLen7"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_anim_3_2"
+                    android:text="7"
+                    android:textSize="34dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnLen4"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_anim_3_2"
+                    android:text="4"
+                    android:textSize="34dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnLen1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_anim_3_2"
+                    android:text="1"
+                    android:textSize="34dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btnLenCE"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_anim_2"
+                    android:text="CE"
+                    android:textSize="34dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnLen8"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_anim_3"
+                    android:text="8"
+                    android:textSize="34dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnLen5"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_anim_3"
+                    android:text="5"
+                    android:textSize="34dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnLen2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_anim_3"
+                    android:text="2"
+                    android:textSize="34dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnLen0"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_anim_3"
+                    android:text="0"
+                    android:textSize="34dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/btnLenXoa"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/button_anim_3_1"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/xoa" />
+
+                <Button
+                    android:id="@+id/btnLen9"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_anim_3"
+                    android:text="9"
+                    android:textSize="34dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnLen6"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_anim_3"
+                    android:text="6"
+                    android:textSize="34dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnLen3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_anim_3"
+                    android:text="3"
+                    android:textSize="34dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnLenCham"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_anim_2"
+                    android:gravity="center"
+                    android:text="."
+                    android:textSize="50dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvLen"
+        android:visibility="invisible"
+        android:layout_width="250dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/listview_layout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
